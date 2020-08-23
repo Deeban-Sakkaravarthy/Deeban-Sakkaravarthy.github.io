@@ -1,0 +1,17 @@
+.bg
+{
+    background: linear-gradient(to bottom,  #FFB88C, #DE6262);
+    font-family: 'Roboto', sans-serif;
+}
+.container
+{
+    padding-top: 5%;
+}
+.table
+{
+    background-color: cornsilk;
+}
+tr
+{
+    text-align: center;
+}

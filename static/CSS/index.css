@@ -1,0 +1,123 @@
+body,html
+{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bgimage
+{
+    background-image: url(../pic/broiler-chickens-in-house.jpg);
+    background-size: cover;
+    height: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1
+{
+    font-size: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #DC143C;
+}
+.nav-wrapper
+{
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    padding-right: 2vw;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    display: inline-flex;
+    flex-direction: row!important;
+}
+.nav-wrapper a
+{
+    color:whitesmoke!important;
+}
+li  
+{
+   
+    padding: 10px 12px;
+    text-decoration: none;
+}
+li a:hover 
+{
+    color: #e79191;
+    text-decoration: none;
+}
+@media screen and (max-width :700px)
+{
+    h1
+    {
+        font-size: 70px;
+    }
+    
+}
+@media screen and (max-width :450px)
+{
+    h1
+    {
+        padding-top: 3vh;
+        font-size: 60px;
+    }
+    .navbar-nav
+    {
+         font-size: 20px;
+    }
+    
+}
+@media screen and (max-width :380px)
+{
+    h1
+    {
+        font-size: 40px;
+        padding-top: 10vh;
+    }
+/*
+    .navbar-nav
+    {
+        font-size: 30px;
+    }
+*/
+    
+}
+.container
+{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.icon
+{
+    max-width: 100px;
+    max-height: 80px;
+    margin: 0 auto;
+    display: block;
+}
+.services section
+{
+    padding-top:3%;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 400;
+    background-position: center center;
+}
+
